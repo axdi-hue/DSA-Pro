@@ -7,7 +7,7 @@
 
 int main(int argc, char* argv[]){
     char str[200];
-
+// This is the driver code and it is working fine.
     if(argc >= 3){
         if(strcmp(argv[1],"-s") == 0){
             // char str[200];
