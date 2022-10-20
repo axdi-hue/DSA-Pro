@@ -36,7 +36,7 @@ node* pop(stack *top){
     *top=p->next;
     x=p->b;
     p->next=NULL;
-    free(p);
+    free(p); // frees memory.
     return x;
 }
 

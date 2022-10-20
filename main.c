@@ -16,7 +16,7 @@ int main(int argc, char* argv[]){
                 strcat(str, " ");
             }
             get_Search(str);
-            printf("\n\tSearching ");
+            printf("\n\tSearching ");// Prints "Searching".
             sleep(1);
             printf(".");
             sleep(1);

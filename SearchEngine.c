@@ -14,7 +14,7 @@ void initSplay(root *t){
 root load_From_File(){
     char str[200];
     char key[200];
-    int freq;
+    int freq; // Frequency for how many times a word is searched
     root t;
     initSplay(&t);
     FILE *fp1 = fopen("backup.txt", "r");
